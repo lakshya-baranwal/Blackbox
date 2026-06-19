@@ -55,3 +55,38 @@ signed main() {
     while(t--) solve();
     return 0; 
 }
+
+
+// Fast Prime Factorization
+// It is the optimized version of above prime factorization 
+// It also uses an Immediately Invoked Function Expression (IIFE). By defining a lambda function and putting () at the end,
+// it forces this code to run automatically before your main() function even starts. This guarantees your arrays are ready to use.
+
+// declare two arrays
+bool prime[N];
+int spf[N];
+
+auto init = []() -> int {
+    for(int i = 0; i < N; i++) prime[i] = 1, spf[i] = i;
+    prime[0] = prime[1] = 0;
+    for(int i = 4; i < N; i += 2) prime[i] = 0, spf[i] = 2;
+    for(int i = 3; i * i < N; i += 2) {
+        if(prime[i]) {
+            for(int j = i * i; j < N; j += 2 * i) {
+                spf[j] = min(spf[j], i);
+                prime[j] = 0;
+            }
+        }
+    }
+    return 1;
+} ();
+
+vector<int> prime_factorization(int x) {
+    vector<int> p;
+    while(x > 1) {
+        p.push_back(spf[x]);
+        x /= spf[x];
+    }
+    return p;
+}
+
