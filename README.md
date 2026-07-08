@@ -1,6 +1,23 @@
-# Data Structures and Algorithms (DSA)
+## BLACKBOX
 
-This repository contains codes and implementations of various techniques under DSA. 
+<div align="center">
+
+<br/>
+
+<img src="./assets/banner.svg" alt="BLACKBOX" width="500"/>
+
+[![Black Box](https://img.shields.io/badge/Reference-Black%20Box-0E9F6E?style=for-the-badge)](./blackbox.md)
+[![C++](https://img.shields.io/badge/C++-100%25-111110?style=for-the-badge&logo=cplusplus&logoColor=white)](.)
+[![License](https://img.shields.io/badge/License-MIT-F2A93B?style=for-the-badge)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blue?style=for-the-badge)](#contribution-guidelines)
+
+<br/>
+
+> *This repository contains codes and implementations of various techniques under DSA.*
+
+
+<br/>
+</div>
 
 ## Table of Contents
 
