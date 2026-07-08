@@ -1,0 +1,5 @@
+<svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="180" fill="#0d1117"/>
+  <text x="400" y="108" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="14" fill="#ffffff" text-anchor="middle">BLACKBOX</text>
+  <rect x="300" y="128" width="200" height="3" fill="#0E9F6E"/>
+</svg>
