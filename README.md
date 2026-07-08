@@ -13,7 +13,7 @@
 
 <br/>
 
-> *This repository contains codes and implementations of various techniques under DSA.*
+> *This repository contains codes and implementations of various data structures and algorithmic techniques.*
 
 
 <br/>
